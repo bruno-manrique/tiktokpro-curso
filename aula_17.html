@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 17 — <span class="hl">Diversificação</span> + Nichos Lucrativos | TikTok Pro 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#FE2C55;--cyan:#25F4EE;--dark:#010101;--card:#0f0f15;
+  --card2:#15151f;--purple:#7B2FBE;--gold:#FFD700;
+  --text:#e8e8f0;--muted:#7a7a90;--cor:#F48FB1;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--dark);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;line-height:1.7}
+body::before{content:'';position:fixed;top:-20%;right:-15%;width:500px;height:500px;
+  background:radial-gradient(circle,rgba(37,244,238,.05) 0%,transparent 70%);pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;bottom:-20%;left:-15%;width:400px;height:400px;
+  background:radial-gradient(circle,rgba(254,44,85,.06) 0%,transparent 70%);pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:0 20px 80px}
+
+/* progress bar */
+.progress-wrap{position:sticky;top:0;z-index:100;background:rgba(1,1,1,.92);
+  backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06);padding:10px 20px}
+.progress-info{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:6px;font-family:'Syne',sans-serif;letter-spacing:.5px}
+.progress-info span:last-child{color:var(--cor)}
+.bar-bg{background:rgba(255,255,255,.08);border-radius:20px;height:5px}
+.bar-fill{background:linear-gradient(90deg,var(--pink),var(--cor));border-radius:20px;height:5px;width:77%;transition:width .5s ease}
+
+/* header */
+header{padding:40px 0 30px;border-bottom:1px solid rgba(255,255,255,.06)}
+.modulo-badge{display:inline-block;background:var(--cor);color:#000;font-family:'Syne',sans-serif;
+  font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;
+  padding:4px 12px;border-radius:20px;margin-bottom:14px}
+header h1{font-family:'Syne',sans-serif;font-size:clamp(22px,4.5vw,36px);font-weight:800;line-height:1.2;margin-bottom:8px}
+header h1 .hl{color:var(--cor)}
+header .sub{color:var(--muted);font-size:14px;font-style:italic}
+
+/* aula counter */
+.aula-counter{display:flex;align-items:center;gap:8px;margin-top:14px;font-size:12px;color:var(--muted);font-family:'Syne',sans-serif}
+.aula-counter .dot{width:6px;height:6px;border-radius:50%;background:var(--cor)}
+
+/* content */
+.content{padding:32px 0}
+.content h2{font-family:'Syne',sans-serif;font-size:18px;font-weight:700;color:var(--cor);
+  margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.07)}
+.content h2:first-child{margin-top:0}
+.content h3{font-family:'Syne',sans-serif;font-size:15px;font-weight:600;color:var(--text);margin:20px 0 8px}
+.content p{font-size:15px;color:#c8c8d8;margin-bottom:14px;line-height:1.75}
+.content strong{color:var(--text);font-weight:600}
+.content ul,.content ol{padding-left:20px;margin-bottom:14px}
+.content li{font-size:15px;color:#c8c8d8;margin-bottom:8px;line-height:1.7}
+.content li::marker{color:var(--cor)}
+
+/* cards */
+.card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:20px 22px;margin-bottom:14px;border-left:3px solid var(--cor)}
+.card h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--cor);margin-bottom:6px}
+.card p{font-size:14px;color:#b0b0c4;margin:0;line-height:1.6}
+
+/* stat row */
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
+.stat-box{background:var(--card2);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:16px;text-align:center}
+.stat-num{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--cor);display:block}
+.stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-top:3px;display:block}
+
+/* table */
+.tbl-wrap{overflow-x:auto;margin:16px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{background:rgba(255,255,255,.06);color:var(--cor);font-family:'Syne',sans-serif;font-size:11px;
+  letter-spacing:1px;text-transform:uppercase;padding:10px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.08)}
+td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.04);color:#c0c0d4;vertical-align:top}
+tr:hover td{background:rgba(255,255,255,.02)}
+
+/* step */
+.steps{margin:16px 0}
+.step{display:flex;gap:14px;margin-bottom:14px;align-items:flex-start}
+.step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--cor);
+  color:#000;font-family:'Syne',sans-serif;font-size:12px;font-weight:800;
+  display:flex;align-items:center;justify-content:center}
+.step-body{flex:1;padding-top:3px}
+.step-body strong{display:block;font-size:14px;color:var(--text);margin-bottom:3px}
+.step-body span{font-size:13.5px;color:#b0b0c4}
+
+/* alert */
+.alert{background:rgba(254,44,85,.08);border:1px solid rgba(254,44,85,.25);border-left:4px solid var(--pink);
+  border-radius:10px;padding:14px 18px;margin:18px 0;font-size:14px;color:#f0a0b0;line-height:1.6}
+.alert strong{color:var(--pink)}
+
+/* dica */
+.dica-box{background:rgba(37,244,238,.06);border:1px solid rgba(37,244,238,.2);
+  border-radius:12px;padding:18px 20px;margin:24px 0;display:flex;gap:14px;align-items:flex-start}
+.dica-icon{font-size:22px;flex-shrink:0;margin-top:2px}
+.dica-label{font-family:'Syne',sans-serif;font-size:10px;font-weight:800;letter-spacing:2px;
+  color:var(--cyan);text-transform:uppercase;margin-bottom:5px}
+.dica-box p{font-size:14px;color:#a8f0ee;margin:0;line-height:1.65}
+
+/* resumo */
+.resumo-box{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;
+  padding:22px 24px;margin-top:32px}
+.resumo-box h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--text);margin-bottom:14px}
+.resumo-box ul{padding-left:0;list-style:none}
+.resumo-box li{font-size:14px;color:#c0c0d4;margin-bottom:10px;padding-left:22px;position:relative;line-height:1.6}
+.resumo-box li::before{content:'✓';position:absolute;left:0;color:var(--cor);font-weight:700}
+
+/* highlight */
+.hl-box{background:linear-gradient(135deg,rgba(255,215,0,.07),rgba(255,215,0,.03));
+  border:1px solid rgba(255,215,0,.2);border-left:4px solid var(--gold);
+  border-radius:10px;padding:14px 18px;margin:18px 0;font-size:14px;color:#d4c06a;line-height:1.6}
+.hl-box strong{color:var(--gold)}
+
+/* nav */
+.nav-footer{display:flex;justify-content:space-between;align-items:center;
+  margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.07);gap:12px}
+.nav-btn{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;padding:12px 22px;
+  border-radius:50px;text-decoration:none;transition:all .2s ease;display:inline-block}
+.nav-btn.prev{background:transparent;border:1.5px solid rgba(255,255,255,.15);color:var(--muted)}
+.nav-btn.prev:hover{border-color:var(--cor);color:var(--cor)}
+.nav-btn.next{background:var(--cor);color:#000}
+.nav-btn.next:hover{opacity:.85;transform:translateX(3px)}
+.nav-btn.concluido{background:linear-gradient(135deg,#00897B,#00BFA5);color:white}
+
+@media(max-width:500px){
+  .stat-row{grid-template-columns:1fr 1fr}
+  .nav-btn{font-size:12px;padding:10px 16px}
+}
+</style>
+</head>
+<body>
+
+<div class="progress-wrap">
+  <div class="progress-info">
+    <span>TIKTOK PRO 2026 — Aula 17 de 22</span>
+    <span>77% concluído</span>
+  </div>
+  <div class="bar-bg"><div class="bar-fill"></div></div>
+</div>
+
+<div class="wrap">
+  <header>
+    <div class="modulo-badge">MÓDULO 5 — ESCALA</div>
+    <h1><span class="hl">Diversificação</span> + Nichos Lucrativos</h1>
+    <p class="sub">Proteja sua renda e multiplique seu alcance além do TikTok</p>
+    <div class="aula-counter"><div class="dot"></div><span>Aula 17 de 22</span></div>
+  </header>
+
+  <div class="content">
+    
+<h2>Não dependa 100% do TikTok</h2>
+<p>O TikTok pode mudar seu algoritmo, limitar seu alcance ou ser restringido em alguns países. Criadores que constroem renda sustentável usam o TikTok como <strong>motor de tráfego</strong> para canais que eles controlam — não como único ponto de presença digital.</p>
+
+<div class="alert"><strong>⚠️ Risco real:</strong> Criadores que dependem exclusivamente do TikTok ficam à mercê de mudanças de política que não controlam. Diversificar é proteção — não é trabalho extra.</div>
+
+<h2>Os 5 canais para onde levar sua audiência</h2>
+<div class="card"><h3>📧 Lista de E-mail — O ativo mais valioso</h3><p>Use MailChimp ou ConvertKit (gratuitos) para capturar e-mails. Uma lista de e-mails é sua — nenhuma plataforma pode te tirar. Coloque formulário de captura no Linktree.</p></div>
+<div class="card"><h3>💬 WhatsApp/Telegram</h3><p>Grupos e canais com audiência engajada. Perfeito para divulgar afiliados, novidades e lives com antecedência.</p></div>
+<div class="card"><h3>📸 Instagram Reels</h3><p>Reuse os mesmos vídeos do TikTok (remova a marca d'água com CapCut). Mesma audiência, alcance dobrado.</p></div>
+<div class="card"><h3>▶️ YouTube Shorts</h3><p>O mesmo vídeo com título otimizado para busca. YouTube tem monetização própria e gera tráfego passivo por anos.</p></div>
+<div class="card"><h3>📌 Pinterest Idea Pins</h3><p>Público diferente, ótimo para nichos de lifestyle, receitas e DIY. Mesma peça de conteúdo, nova audiência.</p></div>
+
+<h2>Como reaproveitar 1 vídeo em 5 plataformas</h2>
+<div class="tbl-wrap"><table>
+<tr><th>Plataforma</th><th>Adaptação necessária</th></tr>
+<tr><td>TikTok</td><td>Vídeo original — formato 9:16, legenda com hashtags, som em alta</td></tr>
+<tr><td>Instagram Reels</td><td>Mesmo vídeo — remova marca d'água do TikTok com CapCut</td></tr>
+<tr><td>YouTube Shorts</td><td>Mesmo vídeo — adicione miniatura e título otimizado para busca</td></tr>
+<tr><td>Pinterest</td><td>Mesmo vídeo — público diferente, ótimo para lifestyle e DIY</td></tr>
+<tr><td>WhatsApp Status</td><td>Clipe de 30s do melhor trecho — direciona para o link na bio</td></tr>
+</table></div>
+
+<h2>Os 8 nichos mais lucrativos no TikTok em 2026</h2>
+<ul>
+  <li><strong>💰 Finanças e Investimentos</strong> — RPM altíssimo. Público engajado e disposto a comprar cursos e mentorias.</li>
+  <li><strong>💪 Saúde, Fitness e Emagrecimento</strong> — Nicho eterno. Suplementos, cursos de treino e apps de dieta.</li>
+  <li><strong>📱 Empreendedorismo Digital</strong> — Crescimento acelerado. Cursos, ferramentas e mentorias com ticket alto.</li>
+  <li><strong>🧠 Desenvolvimento Pessoal e Mindset</strong> — Enorme no Brasil. Livros, cursos e mentorias.</li>
+  <li><strong>🍳 Culinária e Alimentação</strong> — Viraliza facilmente, sem equipamento caro.</li>
+  <li><strong>🏠 Casa e Decoração</strong> — Público com intenção de compra muito alta. Ótimo para TikTok Shop.</li>
+  <li><strong>📚 Educação e Concursos</strong> — Alta demanda no Brasil. Público muito fiel.</li>
+  <li><strong>👶 Maternidade e Família</strong> — Nicho em crescimento. Audiência extremamente engajada e fiel.</li>
+</ul>
+
+    
+        <div class="dica-box">
+          <div class="dica-icon">💡</div>
+          <div>
+            <div class="dica-label">DICA PRO</div>
+            <p>Comece a diversificação com apenas UMA plataforma adicional ao TikTok — não tente estar em 5 ao mesmo tempo. A escolha mais eficiente: Instagram Reels, pois o conteúdo é o mesmo vídeo do TikTok com a marca d'água removida. Esforço mínimo, alcance dobrado.</p>
+          </div>
+        </div>
+    
+        <div class="resumo-box">
+          <h3>📌 Pontos-chave desta aula</h3>
+          <ul><li>Use o TikTok como motor de tráfego para canais que você controla — e-mail, WhatsApp, YouTube</li><li>1 vídeo pode ser publicado em 5 plataformas com adaptações mínimas — maximize o alcance</li><li>Nichos de finanças, saúde e empreendedorismo têm RPM e comissões muito mais altos</li><li>Comece com UMA plataforma adicional — Instagram Reels é a mais eficiente para começar</li></ul>
+        </div>
+  </div>
+
+  <div class="nav-footer">
+    <a href="aula_16.html" class="nav-btn prev">← Aula anterior</a>
+    <a href="aula_18.html" class="nav-btn next">Próxima aula →</a>
+  </div>
+</div>
+</body>
+</html>

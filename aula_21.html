@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 21 — Pack de Vídeos <span class="hl">4K</span> — Acesso Completo | TikTok Pro 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#FE2C55;--cyan:#25F4EE;--dark:#010101;--card:#0f0f15;
+  --card2:#15151f;--purple:#7B2FBE;--gold:#FFD700;
+  --text:#e8e8f0;--muted:#7a7a90;--cor:#FFD700;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--dark);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;line-height:1.7}
+body::before{content:'';position:fixed;top:-20%;right:-15%;width:500px;height:500px;
+  background:radial-gradient(circle,rgba(37,244,238,.05) 0%,transparent 70%);pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;bottom:-20%;left:-15%;width:400px;height:400px;
+  background:radial-gradient(circle,rgba(254,44,85,.06) 0%,transparent 70%);pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:0 20px 80px}
+
+/* progress bar */
+.progress-wrap{position:sticky;top:0;z-index:100;background:rgba(1,1,1,.92);
+  backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06);padding:10px 20px}
+.progress-info{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:6px;font-family:'Syne',sans-serif;letter-spacing:.5px}
+.progress-info span:last-child{color:var(--cor)}
+.bar-bg{background:rgba(255,255,255,.08);border-radius:20px;height:5px}
+.bar-fill{background:linear-gradient(90deg,var(--pink),var(--cor));border-radius:20px;height:5px;width:95%;transition:width .5s ease}
+
+/* header */
+header{padding:40px 0 30px;border-bottom:1px solid rgba(255,255,255,.06)}
+.modulo-badge{display:inline-block;background:var(--cor);color:#000;font-family:'Syne',sans-serif;
+  font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;
+  padding:4px 12px;border-radius:20px;margin-bottom:14px}
+header h1{font-family:'Syne',sans-serif;font-size:clamp(22px,4.5vw,36px);font-weight:800;line-height:1.2;margin-bottom:8px}
+header h1 .hl{color:var(--cor)}
+header .sub{color:var(--muted);font-size:14px;font-style:italic}
+
+/* aula counter */
+.aula-counter{display:flex;align-items:center;gap:8px;margin-top:14px;font-size:12px;color:var(--muted);font-family:'Syne',sans-serif}
+.aula-counter .dot{width:6px;height:6px;border-radius:50%;background:var(--cor)}
+
+/* content */
+.content{padding:32px 0}
+.content h2{font-family:'Syne',sans-serif;font-size:18px;font-weight:700;color:var(--cor);
+  margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.07)}
+.content h2:first-child{margin-top:0}
+.content h3{font-family:'Syne',sans-serif;font-size:15px;font-weight:600;color:var(--text);margin:20px 0 8px}
+.content p{font-size:15px;color:#c8c8d8;margin-bottom:14px;line-height:1.75}
+.content strong{color:var(--text);font-weight:600}
+.content ul,.content ol{padding-left:20px;margin-bottom:14px}
+.content li{font-size:15px;color:#c8c8d8;margin-bottom:8px;line-height:1.7}
+.content li::marker{color:var(--cor)}
+
+/* cards */
+.card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:20px 22px;margin-bottom:14px;border-left:3px solid var(--cor)}
+.card h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--cor);margin-bottom:6px}
+.card p{font-size:14px;color:#b0b0c4;margin:0;line-height:1.6}
+
+/* stat row */
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
+.stat-box{background:var(--card2);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:16px;text-align:center}
+.stat-num{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--cor);display:block}
+.stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-top:3px;display:block}
+
+/* table */
+.tbl-wrap{overflow-x:auto;margin:16px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{background:rgba(255,255,255,.06);color:var(--cor);font-family:'Syne',sans-serif;font-size:11px;
+  letter-spacing:1px;text-transform:uppercase;padding:10px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.08)}
+td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.04);color:#c0c0d4;vertical-align:top}
+tr:hover td{background:rgba(255,255,255,.02)}
+
+/* step */
+.steps{margin:16px 0}
+.step{display:flex;gap:14px;margin-bottom:14px;align-items:flex-start}
+.step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--cor);
+  color:#000;font-family:'Syne',sans-serif;font-size:12px;font-weight:800;
+  display:flex;align-items:center;justify-content:center}
+.step-body{flex:1;padding-top:3px}
+.step-body strong{display:block;font-size:14px;color:var(--text);margin-bottom:3px}
+.step-body span{font-size:13.5px;color:#b0b0c4}
+
+/* alert */
+.alert{background:rgba(254,44,85,.08);border:1px solid rgba(254,44,85,.25);border-left:4px solid var(--pink);
+  border-radius:10px;padding:14px 18px;margin:18px 0;font-size:14px;color:#f0a0b0;line-height:1.6}
+.alert strong{color:var(--pink)}
+
+/* dica */
+.dica-box{background:rgba(37,244,238,.06);border:1px solid rgba(37,244,238,.2);
+  border-radius:12px;padding:18px 20px;margin:24px 0;display:flex;gap:14px;align-items:flex-start}
+.dica-icon{font-size:22px;flex-shrink:0;margin-top:2px}
+.dica-label{font-family:'Syne',sans-serif;font-size:10px;font-weight:800;letter-spacing:2px;
+  color:var(--cyan);text-transform:uppercase;margin-bottom:5px}
+.dica-box p{font-size:14px;color:#a8f0ee;margin:0;line-height:1.65}
+
+/* resumo */
+.resumo-box{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;
+  padding:22px 24px;margin-top:32px}
+.resumo-box h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--text);margin-bottom:14px}
+.resumo-box ul{padding-left:0;list-style:none}
+.resumo-box li{font-size:14px;color:#c0c0d4;margin-bottom:10px;padding-left:22px;position:relative;line-height:1.6}
+.resumo-box li::before{content:'✓';position:absolute;left:0;color:var(--cor);font-weight:700}
+
+/* highlight */
+.hl-box{background:linear-gradient(135deg,rgba(255,215,0,.07),rgba(255,215,0,.03));
+  border:1px solid rgba(255,215,0,.2);border-left:4px solid var(--gold);
+  border-radius:10px;padding:14px 18px;margin:18px 0;font-size:14px;color:#d4c06a;line-height:1.6}
+.hl-box strong{color:var(--gold)}
+
+/* nav */
+.nav-footer{display:flex;justify-content:space-between;align-items:center;
+  margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.07);gap:12px}
+.nav-btn{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;padding:12px 22px;
+  border-radius:50px;text-decoration:none;transition:all .2s ease;display:inline-block}
+.nav-btn.prev{background:transparent;border:1.5px solid rgba(255,255,255,.15);color:var(--muted)}
+.nav-btn.prev:hover{border-color:var(--cor);color:var(--cor)}
+.nav-btn.next{background:var(--cor);color:#000}
+.nav-btn.next:hover{opacity:.85;transform:translateX(3px)}
+.nav-btn.concluido{background:linear-gradient(135deg,#00897B,#00BFA5);color:white}
+
+@media(max-width:500px){
+  .stat-row{grid-template-columns:1fr 1fr}
+  .nav-btn{font-size:12px;padding:10px 16px}
+}
+</style>
+</head>
+<body>
+
+<div class="progress-wrap">
+  <div class="progress-info">
+    <span>TIKTOK PRO 2026 — Aula 21 de 22</span>
+    <span>95% concluído</span>
+  </div>
+  <div class="bar-bg"><div class="bar-fill"></div></div>
+</div>
+
+<div class="wrap">
+  <header>
+    <div class="modulo-badge">🎁 BÔNUS</div>
+    <h1>Pack de Vídeos <span class="hl">4K</span> — Acesso Completo</h1>
+    <p class="sub">Centenas de vídeos prontos para usar como fundo nos seus TikToks</p>
+    <div class="aula-counter"><div class="dot"></div><span>Aula 21 de 22</span></div>
+  </header>
+
+  <div class="content">
+    
+<h2>Seu bônus exclusivo — centenas de vídeos prontos</h2>
+<p>Além de todo o conteúdo do curso, você tem acesso a um pack exclusivo com centenas de vídeos em 4K prontos para usar como fundo nos seus TikToks. São conteúdos de altíssima qualidade, organizados por categoria, para você criar vídeos profissionais sem aparecer — exatamente o método que aprendemos na Aula 13.</p>
+
+<div class="stat-row">
+  <div class="stat-box"><span class="stat-num">4K</span><span class="stat-label">Qualidade Ultra HD</span></div>
+  <div class="stat-box"><span class="stat-num">16+</span><span class="stat-label">Categorias principais</span></div>
+  <div class="stat-box"><span class="stat-num">24</span><span class="stat-label">Packs Mix bônus</span></div>
+  <div class="stat-box"><span class="stat-num">100%</span><span class="stat-label">Incluso na compra</span></div>
+</div>
+
+<div class="hl-box"><strong>Como usar:</strong> Faça o download da categoria desejada → Importe no CapCut como fundo → Adicione narração gerada pela IA (ElevenLabs) → Sincronize legendas automáticas → Adicione música de fundo em volume baixo → Publique.</div>
+
+<h2>📦 Pack Completo — Todos os vídeos</h2>
+<p>Acesse todos os vídeos de uma vez em um único link:</p>
+<div class="card"><h3>🔗 Pack Completo</h3><p><a href="https://drive.google.com/drive/folders/1-aqR8oVfS2gqsBIPL5obI2SmOZ4fczRY" target="_blank" style="color:#25F4EE">Acessar todos os vídeos →</a></p></div>
+
+<h2>📂 Categorias Principais</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;margin:12px 0">
+<a href="https://drive.google.com/drive/folders/1XR4cmdYb9GIsyyD2Pj4-LUJMDkDr1BiR" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🎲 Variados</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/19VTaWIubyLEviLz8sfBDfQtXtgUOpbAS" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>💰 Dinheiro & Money</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1VcohQ4gwACXTMjYR81S2xu5DuZUy5QoT" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🔥 Motivação</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1iPsjFbX78w8lJLk0v_FS8bp3awg7Ipbu" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🎬 Filmes</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/16BYBaBfzb0CInk30mxRm_brng2qaNto-" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🏰 Mansões</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1F-qg16Zo6zvEBpwepyB9mie3XO5jGxQW" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🚗 Carros de Luxo</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1LIprAYaLGtWygIkr3ci9tSW5F3ZhV_2u" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>⌚ Relógios de Luxo</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/17QSdsLmi79GAaqw0BXahY8pKrflwC7yz" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🏍️ Motos de Luxo</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1bMpcUgko1sucydFoWd5mApJ0sM0koxxz" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>✈️ Helicópteros & Jatos</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1h72RcdVdkUEvh63J5Aggr-Dt9PvkH7d" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🌊 Mar de Luxo</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1LPMme3mRB1HfNzdSjU5db-rHepzUp9Mc" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>💑 Lifestyle de Casais</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1LIQl9w9uyfsROw4iKSJVDMmOOgiZ7cZO" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>👗 Pack Feminino</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1Nojpg6vddhdbU_x_sIljS6KN8J2LUEGU" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🏁 Motocross</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/17bD7VGf7kfTZr3phreEcuqjZfn-RRnb3" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🏂 Snowboard</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1OanRXUvCVR7GCjswZTGlVP-vknQblEnx" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>🏞️ Paisagens</span><span style="color:#FFD700">→</span></a><a href="https://drive.google.com/drive/folders/1yqo4-9zbsK59YeAPGtkuFhd3v83qDbvF" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.07);border-left:3px solid #FFD700;border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#e8e8f0;font-size:13px;transition:all .2s"><span>✂️ Cortes Prontos</span><span style="color:#FFD700">→</span></a>
+</div>
+
+<h2>📦 Packs Mix Bônus</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:6px;margin:12px 0">
+<a href="https://drive.google.com/drive/folders/1EEdp_KLRgvwHpNON1p0LDWX4odUGP9H0" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 01</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1ivkYKmtf5snyCOZkVGPdy4-cXweGYeaC" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 02</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/14UdVFfJs4pQYj96VPALXTZaWWzP26A8A" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 03</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1UdoWgZLqiYY7SYJbVOOmzvyOu3TXiFap" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 04</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1LXssVYO044fkLPLFOqi--KVd6bbaljud" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 05</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1NUqtk-SnxjXgM913x9OJzC-_7JaRzHFO" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 06</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1oxpJ1lTQXvqvmB28VwpR6j2bd59yjwnF" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 07</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1-KjBtZSOOYHXgfURDcxHm6jxzH8bXxxh" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 08</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1LoAIG3Usg--uaYU_sng_LqFrra11z1iI" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 09</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1ujFAFWpn4xojzMOvDtdbZ-aP4F9ShFMP" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 10</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1cJaqgnVK5PB9nB5tdfSMCjqFYmUjFkju" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 11</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/19Q995lcL0pqjxCaeDSoLdzKozRLnbmek" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 12</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1yc4_XUKVH0B_pE58IdvX8_iYIujoNEku" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 13</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/16oUa-_mH2xLOEOEK3CNPH_Pr8d7aBT65" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 14</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1mPYBp7peNZ4MVneLzuXJUDgl1X16-gn-" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 15</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1_zxx4giC0It6aXiLMioAR6v9ob2_aNyZ" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 16</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1vPzu5asYCh1kjL9RgFibSy9hRyvVpQrI" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 17</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1cPqKy7aZtEBeg2dr3XXsyMg2yvbR_qxO" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 18</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1ShEEy4QJHLbMFM2x2kR_pLc6IObNRhCA" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 19</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1SpQovWOxyQMMilPRnPpKdrYRD8XLbbD1" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 20</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1yLRJmesU6qk_h9zYFUpT3L5Y7JLTTn7r" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 21</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1Hi0-uH_AogywFzdEJk9O5qj70BoEJ4sV" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 22</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1qUWoQcvpuDKlFjNtoK_ku_hLk-QA2Gzx" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 23</span><span style="color:#b57bee">→</span></a><a href="https://drive.google.com/drive/folders/1ebjv6f_zEYUrftkgIZeXF3DT5cvj-9L0" target="_blank" style="background:#0f0f15;border:1px solid rgba(255,255,255,.05);border-left:3px solid #7B2FBE;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#c8c8d8;font-size:12.5px"><span>📁 Pack Mix 24</span><span style="color:#b57bee">→</span></a></div>
+    
+    
+  </div>
+
+  <div class="nav-footer">
+    <a href="aula_20.html" class="nav-btn prev">← Aula anterior</a>
+    <a href="aula_22.html" class="nav-btn next">Próxima aula →</a>
+  </div>
+</div>
+</body>
+</html>
